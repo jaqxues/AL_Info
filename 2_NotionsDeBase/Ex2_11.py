@@ -1,8 +1,8 @@
 from math import sqrt
 
-a = int(input("Enter a: "))
-b = int(input("Enter b: "))
-c = int(input("Enter c: "))
+a = float(input("Enter a: "))
+b = float(input("Enter b: "))
+c = float(input("Enter c: "))
 
 s = (a + b + c) / 2
 
