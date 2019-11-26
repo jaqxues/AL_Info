@@ -1,7 +1,7 @@
 from C6_Structures.Ex6_5 import get_polynomial
 
 poly = get_polynomial()
-a = int(input("Enter a (x - a): "))
+a = int(input('Enter a (x - a): '))
 
 previous = 0
 new_values = []

@@ -1,7 +1,7 @@
 from math import sqrt
 
-a = int(input("Enter a: "))
-n = int(input("Enter n: "))
+a = int(input('Enter a: '))
+n = int(input('Enter n: '))
 
 primes = []
 current = a - 1

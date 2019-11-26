@@ -1,7 +1,7 @@
 from math import gcd
 from C7_Structures2.Ex7_4 import simplify, input_fraction
 
-f1, f2 = (simplify(input_fraction(f"Fraction {i} - ")) for i in range(2))
+f1, f2 = (simplify(input_fraction(f'Fraction {i} - ')) for i in range(2))
 
 
 def lcm(a, b):

@@ -1,6 +1,6 @@
 from math import sqrt
 
-n = int(input("Enter n: "))
+n = int(input('Enter n: '))
 is_prime = True
 
 if n <= 1:
@@ -12,6 +12,6 @@ for x in range(2, int(sqrt(n))):
         break
 
 if is_prime:
-    print(n, "is a prime number")
+    print(n, 'is a prime number')
 else:
-    print(n, "is not a prime number")
+    print(n, 'is not a prime number')

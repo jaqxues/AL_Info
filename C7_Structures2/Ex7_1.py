@@ -9,11 +9,11 @@ def get_or_gen_matrix(i, j=-1):
     :return: Matrix by i*j (either random values or user-defined
     """
     if i is None:
-        i = int(input("Enter i: "))
+        i = int(input('Enter i: '))
     if j is -1:
         j = i
     elif j is None:
-        j = int(input("Enter j: "))
+        j = int(input('Enter j: '))
 
     assert 2 <= i and 2 <= j
     return [[randint(-100, 100) for _ in range(i)] for _ in range(j)]
@@ -63,5 +63,5 @@ def format_matrix(_matrix, delimiter='\n\t', prefix=None):
 
 if __name__ == '__main__':
     matrix = get_or_gen_matrix(None)
-    print("Matrix: ", format_matrix(matrix))
-    print("Determinant: ", determinant(matrix))
+    print('Matrix: ', format_matrix(matrix))
+    print('Determinant: ', determinant(matrix))

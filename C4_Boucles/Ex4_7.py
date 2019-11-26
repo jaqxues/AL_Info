@@ -1,4 +1,4 @@
-n = int(input("Enter n: "))
+n = int(input('Enter n: '))
 
 reverse = 0
 tmp = n
@@ -8,6 +8,6 @@ while tmp > 0:
     tmp //= 10
 
 if n == reverse:
-    print(n, "is a palindrome")
+    print(n, 'is a palindrome')
 else:
-    print(n, "is not a palindrome")
+    print(n, 'is not a palindrome')

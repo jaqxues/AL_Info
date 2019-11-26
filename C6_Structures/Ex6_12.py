@@ -1,4 +1,4 @@
-vowels = "aeiou"
+vowels = 'aeiou'
 vowels += vowels.upper()
 
 

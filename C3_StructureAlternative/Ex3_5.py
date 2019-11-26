@@ -1,7 +1,7 @@
-a = int(input("Enter a: "))
-b = int(input("Enter b: "))
-c = int(input("Enter c: "))
-d = int(input("Enter d: "))
+a = int(input('Enter a: '))
+b = int(input('Enter b: '))
+c = int(input('Enter c: '))
+d = int(input('Enter d: '))
 
 assert a <= b <= c
 
@@ -12,4 +12,4 @@ elif d < b:
 elif d < c:
     c, d = d, c
 
-print(f"{a} <= {b} <= {c} <= {d}")
+print(f'{a} <= {b} <= {c} <= {d}')

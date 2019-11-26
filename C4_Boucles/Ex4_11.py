@@ -1,6 +1,6 @@
-n = int(input("Enter n: "))
+n = int(input('Enter n: '))
 
-binary = ""
+binary = ''
 while n > 0:
     binary = str(n % 2) + binary
     n //= 2

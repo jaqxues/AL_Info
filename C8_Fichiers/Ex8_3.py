@@ -1,10 +1,10 @@
-filename = input("Enter filename: ")
+filename = input('Enter filename: ')
 
 values = []
-with open(filename, "r") as file:
+with open(filename, 'r') as file:
     line = file.readline()
-    while line != "":
-        for value in line.split(" "):
+    while line != '':
+        for value in line.split(' '):
             values.append(int(value))
         line = file.readline()
 

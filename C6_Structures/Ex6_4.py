@@ -1,5 +1,5 @@
-a = int(input("Enter year: "))
-d = int(input("Enter day of year: "))
+a = int(input('Enter year: '))
+d = int(input('Enter day of year: '))
 m = 0
 
 

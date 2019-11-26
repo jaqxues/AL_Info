@@ -3,7 +3,7 @@ from random import randint
 values = []
 
 for x in range(6):
-    value = int(input(f"Enter a number ({x})"))
+    value = int(input(f'Enter a number ({x})'))
     assert 1 <= value <= 49
     assert value not in values
     values.append(value)
@@ -20,4 +20,4 @@ counter = 0
 for x in range(6):
     if values[x] == new_values[x]:
         counter += 1
-print("Correct Numbers:", counter)
+print('Correct Numbers:', counter)
