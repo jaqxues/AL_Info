@@ -6,7 +6,7 @@ is_prime = True
 if n <= 1:
     is_prime = False
 
-for x in range(2, int(sqrt(n))):
+for x in range(2, int(sqrt(n)) + 1):
     if n % x == 0:
         is_prime = False
         break

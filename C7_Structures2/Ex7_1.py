@@ -10,7 +10,7 @@ def get_or_gen_matrix(i, j=-1):
     """
     if i is None:
         i = int(input('Enter i: '))
-    if j is -1:
+    if j == -1:
         j = i
     elif j is None:
         j = int(input('Enter j: '))

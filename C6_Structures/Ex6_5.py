@@ -40,7 +40,7 @@ def format_polynomial(poly):
 
         number = abs(current)
         # Removes .0 if number is integer (ignore if already converted to int)
-        if number is not int or number.is_integer():
+        if number is not int and number.is_integer():
             number = int(number)
         if number == 1 and p != degree:
             number = ''

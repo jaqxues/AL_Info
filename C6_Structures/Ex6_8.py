@@ -6,6 +6,7 @@ n = int(input('Enter n: '))
 primes = []
 current = a - 1
 
+a = max(a, 2)
 while True:
     current += 1
     for x in range(2, int(sqrt(current)) + 1):
