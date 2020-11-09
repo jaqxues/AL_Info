@@ -1,6 +1,6 @@
 data = {}
 
-with open('./samples/notes.txt', 'r') as file:
+with open('samples/notes.txt', 'r') as file:
     line = file.readline()
     while line != '':
         splitted = line.split(' ')

@@ -1,4 +1,4 @@
-with open('./samples/election.txt', 'r') as file:
+with open('samples/election.txt', 'r') as file:
     line = file.readline()
     lists = [0 for x in range(int(line))]
 
