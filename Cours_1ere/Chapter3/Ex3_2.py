@@ -12,6 +12,7 @@ class BankAccount:
     def __str__(self):
         return f'Account of {self.name} - Balance: {self.balance:.2f} euros'
 
+
 account1 = BankAccount('Tim', 800)
 account1.deposit(350)
 account1.withdraw(200)

@@ -1,5 +1,6 @@
 from math import factorial, sqrt
 
+
 class Number:
     def __init__(self, val):
         self.val = val
@@ -41,8 +42,3 @@ class Number:
 
     def is_amicable_to(self, other):
         return self.sum_of_divisors() == other.sum_of_divisors() == (self.val + other.val)
-
-
-for x in range(10):
-    for y in range(10):
-        print(x, y, Number(x).is_amicable_to(Number(y)))
