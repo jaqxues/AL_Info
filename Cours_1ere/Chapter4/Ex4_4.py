@@ -42,7 +42,7 @@ while not done:
             done = True
         elif evt.type == MOUSEBUTTONDOWN and pygame.mouse.get_pressed(3)[0]:
             start_drag = pygame.mouse.get_pos()
-        elif evt.type == MOUSEBUTTONUP and not pygame.mouse.get_pressed(3)[0]:
+        elif evt.type == MOUSEBUTTONUP and start_drag and not pygame.mouse.get_pressed(3)[0]:
             (x_min, y_min), (x_max, y_max) = get_xy_value(*start_drag), get_xy_value(*pygame.mouse.get_pos())
             if x_min > x_max:
                 x_min, x_max = x_max, x_min
