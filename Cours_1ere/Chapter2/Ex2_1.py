@@ -43,7 +43,7 @@ if __name__ == '__main__':
     '''
     Mechanisms for measuring time accurately in Python:
     
-    * Using the time Library (not recommended
+    * Using the time Library (not recommended)
         * time.time: Unsuitable for accurate measuring (in given cases only precision of 1 second as stated in the docs)
         * time.perf_counter (time.process_time): Allows measuring Time deltas more accurately.
     * timeit.timeit: Executes a given statement n times and returns the average value of time per single execution.
